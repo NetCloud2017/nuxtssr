@@ -17,4 +17,5 @@ export default {
 
 <template>
   <div>home</div>
+  <NuxtPage></NuxtPage>
 </template>

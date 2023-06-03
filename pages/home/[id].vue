@@ -1,13 +1,14 @@
 <template>
-  <div>index</div>
-  <NuxtLink to="/home/123"> to home </NuxtLink>
+  <div>
+    {{ $route.params.id }}
+  </div>
 </template>
 
 <script>
+import { reactive, toRefs } from "vue";
+
 export default {
-  setup() {
-    return {};
-  },
+  setup() {},
 };
 </script>
 
